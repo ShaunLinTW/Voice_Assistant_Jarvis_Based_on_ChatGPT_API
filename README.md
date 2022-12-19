@@ -45,10 +45,23 @@ engine.setProperty('rate', 150)
 ```
 If you want voice speed faster, you need to set the number bigger, if you want the voice speed slower, you can set the number smaller.
 
+Also, if you want to change `Jarvis` name to any other name you want, you can modify the following code:
+```
+speak("Hello, I am Jarvis. How can I help you today?")
+```
+
 ## How to run the Jarvis:
 Run `python Jarvis.py`
 ```
 python Jarvis.py
+```
+
+## How to stop the Jarvis:
+Say `thank you for your help` to stop the program, if you want to change to other sentence to stop the program, you can modify the following code:
+```
+if prompt == "thank you for your help":
+      # Exit the program
+      sys.exit()
 ```
 
 ## Authors
