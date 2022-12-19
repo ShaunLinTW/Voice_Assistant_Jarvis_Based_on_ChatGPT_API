@@ -4,7 +4,7 @@ A Voice Assistant - Jarvis, using Python and based on ChatGPT API to response qu
 ![Jarvis](https://upload.wikimedia.org/wikipedia/en/e/e0/J.A.R.V.I.S._%28MCU%29.png)
 
 ## Getting Started
-In order to start this project, you need to install the following package:
+In order to start this project, you need to run the following code in your command to install the package:
 ```
 pip install openai
 ```
@@ -24,7 +24,7 @@ python setup.py install
 ```
 
 ## How to Modify the code:
-Before you run the code, you need to modify a few line of code.
+Before you run the program, you can modify a few line of code.
 
 ### 1. Add you ChatGPT API to the code:
 Add your ChatGPT API key here `"YOUR_API_KEY"`
@@ -32,12 +32,12 @@ Add your ChatGPT API key here `"YOUR_API_KEY"`
 openai.api_key = "YOUR_API_KEY"
 ```
 
-## Optional code:
+### 2. Optional code:
 You can choose the voice to male or female by change following setting:
 ```
 engine.setProperty('voice', voice[0].id)
 ```
-If you use `voice[0].id`, that show be male voice, but if you want to change to female voice you can replace it to `voice[1].id`.
+If you use `voice[0].id`, that will be male voice, but if you want to change to female voice you can replace it to `voice[1].id`.
 
 If you want your voice speed faster, you can change following setting:
 ```
