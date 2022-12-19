@@ -26,7 +26,7 @@ python setup.py install
 ## How to Modify the code:
 Before you run the program, you can modify a few line of code.
 
-### 1. Add you ChatGPT API to the code:
+### 1. Add your ChatGPT API to the code:
 Add your ChatGPT API key here `"YOUR_API_KEY"`
 ```
 openai.api_key = "YOUR_API_KEY"
