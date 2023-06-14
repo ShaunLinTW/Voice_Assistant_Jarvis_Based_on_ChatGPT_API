@@ -69,4 +69,4 @@ if prompt == "thank you for your help":
  
 ## License
 This project is licensed under OpenAI.
-![OpenAI](https://openai.com/content/images/2022/05/twitter-1.png)
+![OpenAI](https://static-00.iconduck.com/assets.00/openai-icon-2021x2048-4rpe5x7n.png)
